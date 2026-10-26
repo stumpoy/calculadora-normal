@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora Simples </title> <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <div class="calculadora">
+
+         <h1>Calculadora</h1>
+         <input type="number" id="valor1" placeholder="Digite seu primeiro valor">  <!--placeholder faz a caixinha para escrever-->
+         <input type="number" id="valor2" placeholder="Digite seu segundo valor">
+
+         <br><br>
+
+    
+
+    <button onclick="somar()"> + </button>
+    <button onclick="subtrair()"> - </button>
+    <button onclick="multiplicar()"> * </button>
+    <button onclick="dividir()"> / </button>
+    <button onclick="limpar()" id="limpar"> Limpar </button>
+
+    <h2>
+        Resultado: 
+        <span id="resultado">---</span>
+    </h2>
+
+    </div>
+
+
+
+    <script src="./js/calculadora.js"></script>
+</body>
+</html>
